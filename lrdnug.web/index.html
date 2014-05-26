@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="lrdnug">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div ng-controller="IndexCtrl">
+        Text: {{HelloText}}
+
+        <ol>
+            <li ng-repeat="meeting in Meetings">
+                {{meeting.PresentationTitle}}
+            </li>
+        </ol>
+
+    </div>
+    
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-resource.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
