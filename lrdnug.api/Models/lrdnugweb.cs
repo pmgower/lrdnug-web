@@ -1,4 +1,4 @@
-namespace LRDNUG_V2.Models
+namespace lrdnug.api.Models
 {
     using System;
     using System.Data.Entity;

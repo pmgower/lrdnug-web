@@ -5,9 +5,9 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-using LRDNUG_V2.Models;
+using lrdnug.api.Models;
 
-namespace LRDNUG_V2.Controllers
+namespace lrdnug.api.Controllers
 {
     public class MeetingsController : ApiController
     {

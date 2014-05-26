@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web.Http;
 using WebApiContrib.Formatting.Jsonp;
 
-namespace LRDNUG_V2
+namespace lrdnug.api
 {
     public static class WebApiConfig
     {

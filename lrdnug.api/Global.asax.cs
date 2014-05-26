@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace LRDNUG_V2
+namespace lrdnug.api
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
